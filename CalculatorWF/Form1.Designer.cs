@@ -119,9 +119,10 @@ namespace CalculatorWF
             // 
             // AddBtn
             // 
-            this.AddBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.AddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(161)))), ((int)(((byte)(201)))));
             this.AddBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.AddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.AddBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.AddBtn.Location = new System.Drawing.Point(303, 295);
             this.AddBtn.Name = "AddBtn";
@@ -135,7 +136,8 @@ namespace CalculatorWF
             // 
             this.EqualBtn.BackColor = System.Drawing.Color.OrangeRed;
             this.EqualBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EqualBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.EqualBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EqualBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.EqualBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.EqualBtn.Location = new System.Drawing.Point(203, 295);
             this.EqualBtn.Name = "EqualBtn";
@@ -147,33 +149,38 @@ namespace CalculatorWF
             // 
             // DotBtn
             // 
+            this.DotBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.DotBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DotBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DotBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DotBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DotBtn.Location = new System.Drawing.Point(103, 295);
             this.DotBtn.Name = "DotBtn";
             this.DotBtn.Size = new System.Drawing.Size(94, 67);
             this.DotBtn.TabIndex = 17;
             this.DotBtn.Text = ".";
-            this.DotBtn.UseVisualStyleBackColor = true;
+            this.DotBtn.UseVisualStyleBackColor = false;
             this.DotBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // ZeroBtn
             // 
+            this.ZeroBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.ZeroBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ZeroBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ZeroBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ZeroBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ZeroBtn.Location = new System.Drawing.Point(3, 295);
             this.ZeroBtn.Name = "ZeroBtn";
             this.ZeroBtn.Size = new System.Drawing.Size(94, 67);
             this.ZeroBtn.TabIndex = 16;
             this.ZeroBtn.Text = "0";
-            this.ZeroBtn.UseVisualStyleBackColor = true;
+            this.ZeroBtn.UseVisualStyleBackColor = false;
             this.ZeroBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // SubBtn
             // 
-            this.SubBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.SubBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(161)))), ((int)(((byte)(201)))));
             this.SubBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SubBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.SubBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SubBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SubBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.SubBtn.Location = new System.Drawing.Point(303, 222);
             this.SubBtn.Name = "SubBtn";
@@ -185,45 +192,52 @@ namespace CalculatorWF
             // 
             // ThreeBtn
             // 
+            this.ThreeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.ThreeBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ThreeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ThreeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ThreeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ThreeBtn.Location = new System.Drawing.Point(203, 222);
             this.ThreeBtn.Name = "ThreeBtn";
             this.ThreeBtn.Size = new System.Drawing.Size(94, 67);
             this.ThreeBtn.TabIndex = 14;
             this.ThreeBtn.Text = "3";
-            this.ThreeBtn.UseVisualStyleBackColor = true;
+            this.ThreeBtn.UseVisualStyleBackColor = false;
             this.ThreeBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // TwoBtn
             // 
+            this.TwoBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.TwoBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TwoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TwoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TwoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TwoBtn.Location = new System.Drawing.Point(103, 222);
             this.TwoBtn.Name = "TwoBtn";
             this.TwoBtn.Size = new System.Drawing.Size(94, 67);
             this.TwoBtn.TabIndex = 13;
             this.TwoBtn.Text = "2";
-            this.TwoBtn.UseVisualStyleBackColor = true;
+            this.TwoBtn.UseVisualStyleBackColor = false;
             this.TwoBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // OneBtn
             // 
+            this.OneBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.OneBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OneBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.OneBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OneBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.OneBtn.Location = new System.Drawing.Point(3, 222);
             this.OneBtn.Name = "OneBtn";
             this.OneBtn.Size = new System.Drawing.Size(94, 67);
             this.OneBtn.TabIndex = 12;
             this.OneBtn.Text = "1";
-            this.OneBtn.UseVisualStyleBackColor = true;
+            this.OneBtn.UseVisualStyleBackColor = false;
             this.OneBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // MultiplyBtn
             // 
-            this.MultiplyBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.MultiplyBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(161)))), ((int)(((byte)(201)))));
             this.MultiplyBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MultiplyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MultiplyBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MultiplyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MultiplyBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.MultiplyBtn.Location = new System.Drawing.Point(303, 149);
             this.MultiplyBtn.Name = "MultiplyBtn";
@@ -235,45 +249,52 @@ namespace CalculatorWF
             // 
             // SixBtn
             // 
+            this.SixBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.SixBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SixBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.SixBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SixBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SixBtn.Location = new System.Drawing.Point(203, 149);
             this.SixBtn.Name = "SixBtn";
             this.SixBtn.Size = new System.Drawing.Size(94, 67);
             this.SixBtn.TabIndex = 10;
             this.SixBtn.Text = "6";
-            this.SixBtn.UseVisualStyleBackColor = true;
+            this.SixBtn.UseVisualStyleBackColor = false;
             this.SixBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // FiveBtn
             // 
+            this.FiveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.FiveBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FiveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FiveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FiveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FiveBtn.Location = new System.Drawing.Point(103, 149);
             this.FiveBtn.Name = "FiveBtn";
             this.FiveBtn.Size = new System.Drawing.Size(94, 67);
             this.FiveBtn.TabIndex = 9;
             this.FiveBtn.Text = "5";
-            this.FiveBtn.UseVisualStyleBackColor = true;
+            this.FiveBtn.UseVisualStyleBackColor = false;
             this.FiveBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // FourBtn
             // 
+            this.FourBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.FourBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FourBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FourBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FourBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FourBtn.Location = new System.Drawing.Point(3, 149);
             this.FourBtn.Name = "FourBtn";
             this.FourBtn.Size = new System.Drawing.Size(94, 67);
             this.FourBtn.TabIndex = 8;
             this.FourBtn.Text = "4";
-            this.FourBtn.UseVisualStyleBackColor = true;
+            this.FourBtn.UseVisualStyleBackColor = false;
             this.FourBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // DivideBtn
             // 
-            this.DivideBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.DivideBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(161)))), ((int)(((byte)(201)))));
             this.DivideBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DivideBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DivideBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DivideBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DivideBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.DivideBtn.Location = new System.Drawing.Point(303, 76);
             this.DivideBtn.Name = "DivideBtn";
@@ -285,46 +306,53 @@ namespace CalculatorWF
             // 
             // NineBtn
             // 
+            this.NineBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.NineBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NineBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.NineBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NineBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.NineBtn.Location = new System.Drawing.Point(203, 76);
             this.NineBtn.Name = "NineBtn";
             this.NineBtn.Size = new System.Drawing.Size(94, 67);
             this.NineBtn.TabIndex = 6;
             this.NineBtn.Text = "9";
-            this.NineBtn.UseVisualStyleBackColor = true;
+            this.NineBtn.UseVisualStyleBackColor = false;
             this.NineBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // EightBtn
             // 
+            this.EightBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.EightBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EightBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.EightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EightBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.EightBtn.Location = new System.Drawing.Point(103, 76);
             this.EightBtn.Name = "EightBtn";
             this.EightBtn.Size = new System.Drawing.Size(94, 67);
             this.EightBtn.TabIndex = 5;
             this.EightBtn.Text = "8";
-            this.EightBtn.UseVisualStyleBackColor = true;
+            this.EightBtn.UseVisualStyleBackColor = false;
             this.EightBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // SevenBtn
             // 
+            this.SevenBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(227)))), ((int)(((byte)(253)))));
             this.SevenBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SevenBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.SevenBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SevenBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SevenBtn.Location = new System.Drawing.Point(3, 76);
             this.SevenBtn.Name = "SevenBtn";
             this.SevenBtn.Size = new System.Drawing.Size(94, 67);
             this.SevenBtn.TabIndex = 4;
             this.SevenBtn.Text = "7";
-            this.SevenBtn.UseVisualStyleBackColor = true;
+            this.SevenBtn.UseVisualStyleBackColor = false;
             this.SevenBtn.Click += new System.EventHandler(this.Btn_Click);
             // 
             // CBtn
             // 
-            this.CBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.CBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(161)))), ((int)(((byte)(201)))));
             this.CBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.CBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.CBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.CBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.CBtn.Location = new System.Drawing.Point(303, 3);
             this.CBtn.Name = "CBtn";
@@ -332,12 +360,14 @@ namespace CalculatorWF
             this.CBtn.TabIndex = 3;
             this.CBtn.Text = "C";
             this.CBtn.UseVisualStyleBackColor = false;
+            this.CBtn.Click += new System.EventHandler(this.CBtn_Click);
             // 
             // CeBtn
             // 
-            this.CeBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.CeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(161)))), ((int)(((byte)(201)))));
             this.CeBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.CeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.CeBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.CeBtn.Location = new System.Drawing.Point(203, 3);
             this.CeBtn.Name = "CeBtn";
@@ -345,18 +375,20 @@ namespace CalculatorWF
             this.CeBtn.TabIndex = 2;
             this.CeBtn.Text = "CE";
             this.CeBtn.UseVisualStyleBackColor = false;
+            this.CeBtn.Click += new System.EventHandler(this.CeBtn_Click);
             // 
             // DelBtn
             // 
-            this.DelBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.DelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(161)))), ((int)(((byte)(201)))));
             this.DelBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DelBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.DelBtn.Location = new System.Drawing.Point(3, 3);
             this.DelBtn.Name = "DelBtn";
             this.DelBtn.Size = new System.Drawing.Size(94, 67);
             this.DelBtn.TabIndex = 0;
-            this.DelBtn.Text = "Del";
+            this.DelBtn.Text = "DEL";
             this.DelBtn.UseVisualStyleBackColor = false;
             this.DelBtn.Click += new System.EventHandler(this.DelBtn_Click);
             // 

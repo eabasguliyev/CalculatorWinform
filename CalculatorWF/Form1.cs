@@ -205,5 +205,26 @@ namespace CalculatorWF
         {
             CalculateEquation();
         }
+
+        private void CeBtn_Click(object sender, EventArgs e)
+        {
+            ClearUserInput();
+            ClearResult();   
+        }
+
+        private void CBtn_Click(object sender, EventArgs e)
+        {
+            ClearUserInput();
+        }
+
+        private void ClearUserInput()
+        {
+            this.UserInputText.Text = string.Empty;
+        }
+
+        private void ClearResult()
+        {
+            this.calculationResultLbl.Text = string.Empty;
+        }
     }
 }
