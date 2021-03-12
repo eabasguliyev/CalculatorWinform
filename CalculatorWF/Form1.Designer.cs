@@ -62,17 +62,18 @@ namespace CalculatorWF
             this.UserInputText.Location = new System.Drawing.Point(12, 12);
             this.UserInputText.Multiline = true;
             this.UserInputText.Name = "UserInputText";
-            this.UserInputText.Size = new System.Drawing.Size(618, 36);
+            this.UserInputText.Size = new System.Drawing.Size(400, 36);
             this.UserInputText.TabIndex = 0;
             this.UserInputText.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // calculationResultLbl
             // 
-            this.calculationResultLbl.AutoSize = true;
+            this.calculationResultLbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.calculationResultLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.calculationResultLbl.Location = new System.Drawing.Point(13, 51);
             this.calculationResultLbl.Name = "calculationResultLbl";
-            this.calculationResultLbl.Size = new System.Drawing.Size(62, 24);
+            this.calculationResultLbl.Size = new System.Drawing.Size(395, 52);
             this.calculationResultLbl.TabIndex = 1;
             this.calculationResultLbl.Text = "Result";
             // 
@@ -105,7 +106,7 @@ namespace CalculatorWF
             this.tableLayoutPanel1.Controls.Add(this.CBtn, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.CeBtn, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.DelBtn, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 78);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 106);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -113,7 +114,7 @@ namespace CalculatorWF
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(618, 375);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(400, 365);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // AddBtn
@@ -122,9 +123,9 @@ namespace CalculatorWF
             this.AddBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.AddBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.AddBtn.Location = new System.Drawing.Point(465, 303);
+            this.AddBtn.Location = new System.Drawing.Point(303, 295);
             this.AddBtn.Name = "AddBtn";
-            this.AddBtn.Size = new System.Drawing.Size(150, 69);
+            this.AddBtn.Size = new System.Drawing.Size(94, 67);
             this.AddBtn.TabIndex = 19;
             this.AddBtn.Text = "+";
             this.AddBtn.UseVisualStyleBackColor = false;
@@ -136,9 +137,9 @@ namespace CalculatorWF
             this.EqualBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.EqualBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.EqualBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.EqualBtn.Location = new System.Drawing.Point(311, 303);
+            this.EqualBtn.Location = new System.Drawing.Point(203, 295);
             this.EqualBtn.Name = "EqualBtn";
-            this.EqualBtn.Size = new System.Drawing.Size(148, 69);
+            this.EqualBtn.Size = new System.Drawing.Size(94, 67);
             this.EqualBtn.TabIndex = 18;
             this.EqualBtn.Text = "=";
             this.EqualBtn.UseVisualStyleBackColor = false;
@@ -148,9 +149,9 @@ namespace CalculatorWF
             // 
             this.DotBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DotBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.DotBtn.Location = new System.Drawing.Point(157, 303);
+            this.DotBtn.Location = new System.Drawing.Point(103, 295);
             this.DotBtn.Name = "DotBtn";
-            this.DotBtn.Size = new System.Drawing.Size(148, 69);
+            this.DotBtn.Size = new System.Drawing.Size(94, 67);
             this.DotBtn.TabIndex = 17;
             this.DotBtn.Text = ".";
             this.DotBtn.UseVisualStyleBackColor = true;
@@ -160,9 +161,9 @@ namespace CalculatorWF
             // 
             this.ZeroBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ZeroBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ZeroBtn.Location = new System.Drawing.Point(3, 303);
+            this.ZeroBtn.Location = new System.Drawing.Point(3, 295);
             this.ZeroBtn.Name = "ZeroBtn";
-            this.ZeroBtn.Size = new System.Drawing.Size(148, 69);
+            this.ZeroBtn.Size = new System.Drawing.Size(94, 67);
             this.ZeroBtn.TabIndex = 16;
             this.ZeroBtn.Text = "0";
             this.ZeroBtn.UseVisualStyleBackColor = true;
@@ -174,9 +175,9 @@ namespace CalculatorWF
             this.SubBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SubBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SubBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.SubBtn.Location = new System.Drawing.Point(465, 228);
+            this.SubBtn.Location = new System.Drawing.Point(303, 222);
             this.SubBtn.Name = "SubBtn";
-            this.SubBtn.Size = new System.Drawing.Size(150, 69);
+            this.SubBtn.Size = new System.Drawing.Size(94, 67);
             this.SubBtn.TabIndex = 15;
             this.SubBtn.Text = "-";
             this.SubBtn.UseVisualStyleBackColor = false;
@@ -186,9 +187,9 @@ namespace CalculatorWF
             // 
             this.ThreeBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ThreeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ThreeBtn.Location = new System.Drawing.Point(311, 228);
+            this.ThreeBtn.Location = new System.Drawing.Point(203, 222);
             this.ThreeBtn.Name = "ThreeBtn";
-            this.ThreeBtn.Size = new System.Drawing.Size(148, 69);
+            this.ThreeBtn.Size = new System.Drawing.Size(94, 67);
             this.ThreeBtn.TabIndex = 14;
             this.ThreeBtn.Text = "3";
             this.ThreeBtn.UseVisualStyleBackColor = true;
@@ -198,9 +199,9 @@ namespace CalculatorWF
             // 
             this.TwoBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TwoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TwoBtn.Location = new System.Drawing.Point(157, 228);
+            this.TwoBtn.Location = new System.Drawing.Point(103, 222);
             this.TwoBtn.Name = "TwoBtn";
-            this.TwoBtn.Size = new System.Drawing.Size(148, 69);
+            this.TwoBtn.Size = new System.Drawing.Size(94, 67);
             this.TwoBtn.TabIndex = 13;
             this.TwoBtn.Text = "2";
             this.TwoBtn.UseVisualStyleBackColor = true;
@@ -210,9 +211,9 @@ namespace CalculatorWF
             // 
             this.OneBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.OneBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.OneBtn.Location = new System.Drawing.Point(3, 228);
+            this.OneBtn.Location = new System.Drawing.Point(3, 222);
             this.OneBtn.Name = "OneBtn";
-            this.OneBtn.Size = new System.Drawing.Size(148, 69);
+            this.OneBtn.Size = new System.Drawing.Size(94, 67);
             this.OneBtn.TabIndex = 12;
             this.OneBtn.Text = "1";
             this.OneBtn.UseVisualStyleBackColor = true;
@@ -224,9 +225,9 @@ namespace CalculatorWF
             this.MultiplyBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MultiplyBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MultiplyBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.MultiplyBtn.Location = new System.Drawing.Point(465, 153);
+            this.MultiplyBtn.Location = new System.Drawing.Point(303, 149);
             this.MultiplyBtn.Name = "MultiplyBtn";
-            this.MultiplyBtn.Size = new System.Drawing.Size(150, 69);
+            this.MultiplyBtn.Size = new System.Drawing.Size(94, 67);
             this.MultiplyBtn.TabIndex = 11;
             this.MultiplyBtn.Text = "*";
             this.MultiplyBtn.UseVisualStyleBackColor = false;
@@ -236,9 +237,9 @@ namespace CalculatorWF
             // 
             this.SixBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SixBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SixBtn.Location = new System.Drawing.Point(311, 153);
+            this.SixBtn.Location = new System.Drawing.Point(203, 149);
             this.SixBtn.Name = "SixBtn";
-            this.SixBtn.Size = new System.Drawing.Size(148, 69);
+            this.SixBtn.Size = new System.Drawing.Size(94, 67);
             this.SixBtn.TabIndex = 10;
             this.SixBtn.Text = "6";
             this.SixBtn.UseVisualStyleBackColor = true;
@@ -248,9 +249,9 @@ namespace CalculatorWF
             // 
             this.FiveBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FiveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.FiveBtn.Location = new System.Drawing.Point(157, 153);
+            this.FiveBtn.Location = new System.Drawing.Point(103, 149);
             this.FiveBtn.Name = "FiveBtn";
-            this.FiveBtn.Size = new System.Drawing.Size(148, 69);
+            this.FiveBtn.Size = new System.Drawing.Size(94, 67);
             this.FiveBtn.TabIndex = 9;
             this.FiveBtn.Text = "5";
             this.FiveBtn.UseVisualStyleBackColor = true;
@@ -260,9 +261,9 @@ namespace CalculatorWF
             // 
             this.FourBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FourBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.FourBtn.Location = new System.Drawing.Point(3, 153);
+            this.FourBtn.Location = new System.Drawing.Point(3, 149);
             this.FourBtn.Name = "FourBtn";
-            this.FourBtn.Size = new System.Drawing.Size(148, 69);
+            this.FourBtn.Size = new System.Drawing.Size(94, 67);
             this.FourBtn.TabIndex = 8;
             this.FourBtn.Text = "4";
             this.FourBtn.UseVisualStyleBackColor = true;
@@ -274,9 +275,9 @@ namespace CalculatorWF
             this.DivideBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DivideBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DivideBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.DivideBtn.Location = new System.Drawing.Point(465, 78);
+            this.DivideBtn.Location = new System.Drawing.Point(303, 76);
             this.DivideBtn.Name = "DivideBtn";
-            this.DivideBtn.Size = new System.Drawing.Size(150, 69);
+            this.DivideBtn.Size = new System.Drawing.Size(94, 67);
             this.DivideBtn.TabIndex = 7;
             this.DivideBtn.Text = "/";
             this.DivideBtn.UseVisualStyleBackColor = false;
@@ -286,9 +287,9 @@ namespace CalculatorWF
             // 
             this.NineBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NineBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.NineBtn.Location = new System.Drawing.Point(311, 78);
+            this.NineBtn.Location = new System.Drawing.Point(203, 76);
             this.NineBtn.Name = "NineBtn";
-            this.NineBtn.Size = new System.Drawing.Size(148, 69);
+            this.NineBtn.Size = new System.Drawing.Size(94, 67);
             this.NineBtn.TabIndex = 6;
             this.NineBtn.Text = "9";
             this.NineBtn.UseVisualStyleBackColor = true;
@@ -298,9 +299,9 @@ namespace CalculatorWF
             // 
             this.EightBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.EightBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.EightBtn.Location = new System.Drawing.Point(157, 78);
+            this.EightBtn.Location = new System.Drawing.Point(103, 76);
             this.EightBtn.Name = "EightBtn";
-            this.EightBtn.Size = new System.Drawing.Size(148, 69);
+            this.EightBtn.Size = new System.Drawing.Size(94, 67);
             this.EightBtn.TabIndex = 5;
             this.EightBtn.Text = "8";
             this.EightBtn.UseVisualStyleBackColor = true;
@@ -310,9 +311,9 @@ namespace CalculatorWF
             // 
             this.SevenBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SevenBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SevenBtn.Location = new System.Drawing.Point(3, 78);
+            this.SevenBtn.Location = new System.Drawing.Point(3, 76);
             this.SevenBtn.Name = "SevenBtn";
-            this.SevenBtn.Size = new System.Drawing.Size(148, 69);
+            this.SevenBtn.Size = new System.Drawing.Size(94, 67);
             this.SevenBtn.TabIndex = 4;
             this.SevenBtn.Text = "7";
             this.SevenBtn.UseVisualStyleBackColor = true;
@@ -325,9 +326,9 @@ namespace CalculatorWF
             this.CBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.CBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.CBtn.Location = new System.Drawing.Point(465, 3);
+            this.CBtn.Location = new System.Drawing.Point(303, 3);
             this.CBtn.Name = "CBtn";
-            this.CBtn.Size = new System.Drawing.Size(150, 69);
+            this.CBtn.Size = new System.Drawing.Size(94, 67);
             this.CBtn.TabIndex = 3;
             this.CBtn.Text = "C";
             this.CBtn.UseVisualStyleBackColor = false;
@@ -338,9 +339,9 @@ namespace CalculatorWF
             this.CeBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.CeBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.CeBtn.Location = new System.Drawing.Point(311, 3);
+            this.CeBtn.Location = new System.Drawing.Point(203, 3);
             this.CeBtn.Name = "CeBtn";
-            this.CeBtn.Size = new System.Drawing.Size(148, 69);
+            this.CeBtn.Size = new System.Drawing.Size(94, 67);
             this.CeBtn.TabIndex = 2;
             this.CeBtn.Text = "CE";
             this.CeBtn.UseVisualStyleBackColor = false;
@@ -353,7 +354,7 @@ namespace CalculatorWF
             this.DelBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.DelBtn.Location = new System.Drawing.Point(3, 3);
             this.DelBtn.Name = "DelBtn";
-            this.DelBtn.Size = new System.Drawing.Size(148, 69);
+            this.DelBtn.Size = new System.Drawing.Size(94, 67);
             this.DelBtn.TabIndex = 0;
             this.DelBtn.Text = "Del";
             this.DelBtn.UseVisualStyleBackColor = false;
@@ -366,11 +367,11 @@ namespace CalculatorWF
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.CancelButton = this.CBtn;
-            this.ClientSize = new System.Drawing.Size(640, 465);
+            this.ClientSize = new System.Drawing.Size(422, 483);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.calculationResultLbl);
             this.Controls.Add(this.UserInputText);
-            this.MinimumSize = new System.Drawing.Size(440, 490);
+            this.MinimumSize = new System.Drawing.Size(440, 530);
             this.Name = "CalculatorFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
